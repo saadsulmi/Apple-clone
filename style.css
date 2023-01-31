@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.appleNav{
+    position:fixed;
+    z-index: 100;
+    height: 40px;
+    width: 100%;
+    background: black ;
+    opacity: 0.78;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo-icon{
+    margin-right: 2.7vw;
+    margin-top: 4px;
+}
+.logo-icon svg{
+    fill: rgb(187,187,187);
+    width: 15px ;
+    cursor: pointer;
+    transition: ease-out 200ms;
+}
+.logo-icon svg:hover{
+    fill: white;
+}
+.appleNav .options a{
+    color: rgb(187,187,187);
+    text-decoration: none;
+    margin-right: 2.7vw;
+    font-size: 0.75rem;
+    transition: ease-out 200ms;
+}
+.appleNav .options a:hover{
+   color: white;
+}
+.search-section svg{
+    width: 15px;
+    margin-top: 8px;
+    fill:rgb(187,187,187) ;
+    transition: ease-out 200ms;
+}
+.search-section svg:hover{
+    fill: white;
+}
+.shopkart svg{
+    
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+   margin-left: 2.7vw;
+   cursor: pointer;
+}
+.shopkart svg path{
+    fill: rgb(187,187,187);
+    transition: ease-out 200ms;
+}
+
+.shopkart svg:hover path{
+    fill: white;
+    
+}
+.container{
+    width: 100%;
+}
+.pageA{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    width: 100%;
+    height: 93vh;
+    background:no-repeat url(https://www.apple.com/v/home/ay/images/heroes/iphone-14-pro/hero_iphone14pro__e5xbgo5ffhg2_large.jpg) center 85px;
+    background-color: black;
+    background-position: bottom;
+}
+.pageA div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pageA div h1{
+    color: white;
+    overflow: hidden;
+}
+.pageA div h2{
+    color: white;
+    overflow: hidden;
+}
+
+.pageA div div a{
+    text-decoration: none;
+    color: white;
+}
+.pageA div div a:hover{
+    
+    color: rgb(167, 98, 216);
+}
+.pageB{
+    padding-top: 80px;
+    width: 100%;
+    height: 76vh;
+    background:no-repeat url(https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_preorder__c4g2wjzuugqe_large_2x.jpg) center -10px ;
+    background-color: white;
+    background-size: cover;
+}
+.pageB div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pageB div h1{
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.pageB div h2{
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.pageB div div a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.pageB div div a:hover{
+    
+    color: rgb(85, 78, 91);
+}
+
+.pageC{
+    padding-top: 80px;
+    width: 100%;
+    height: 76vh;
+    background:no-repeat url(https://www.apple.com/v/home/ay/images/heroes/apple-watch-series-8/hero_apple_watch_series_8__bjc1ok5mkjua_large_2x.jpg) center center;
+    background-color: black;
+    background-size: cover;
+}
+.pageC div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pageC div h2{
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-weight: bold;
+}
+.pageC div h3{
+    color: rgb(254, 254, 254);
+    overflow: hidden;
+}
+
+.pageC div div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.pageC div div a:hover{
+    
+    color: rgb(176, 121, 223);
+}
+.sub{
+    padding: 2px ;
+}
+
+.sub-lap{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background: url(https://www.apple.com/v/home/ay/images/promos/macbook-pro-14-and-16/promo_mbp_preorder__faqgyfz56umq_medium_2x.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 76vh;
+}
+.sub-lap div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-lap div h1{
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-weight: bold;
+}
+.sub-lap div h3{
+    color: rgb(254, 254, 254);
+    overflow: hidden;
+}
+
+.sub-lap div div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sub-lap div div a:hover{
+    
+    color: rgb(176, 121, 223);
+}
+.sub-speaker{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    width: auto;
+    background: url(https://www.apple.com/v/home/ay/images/promos/homepod/promo_homepod_announce__bhviq9vjnlf6_medium_2x.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: black;
+    height: 76vh;
+}
+.sub-speaker div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-speaker div h1{
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-weight: bold;
+}
+.sub-speaker div h3{
+    color: rgb(254, 254, 254);
+    overflow: hidden;
+}
+
+.sub-speaker div div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sub-speaker div div a:hover{
+    
+    color: rgb(176, 121, 223);
+}
+.sub-watch{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    width: auto;
+    background: url(https://www.apple.com/v/home/ay/images/promos/watch-black-unity/promo_bhm__d8b9z5rlwjgy_medium_2x.jpg) center -240px;
+    background-size: 80%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-color: black;
+    height: 76vh;
+}
+.sub-watch div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-watch div h1{
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-weight: bold;
+}
+.sub-watch div h3{
+    color: rgb(254, 254, 254);
+    overflow: hidden;
+}
+
+.sub-watch div div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sub-watch div div a:hover{
+    
+    color: rgb(176, 121, 223);
+}
+.sub-valantine{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    width: auto;
+    background: url(https://www.apple.com/v/home/ay/images/promos/valentines-day-2023/promo_valentines_day_2023__duffhlmdxcqe_large_2x.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: black;
+    height: 76vh;
+}
+.sub-valantine div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-valantine div h1{
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    font-weight: bold;
+}
+.sub-valantine div h3{
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.sub-valantine div div a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.sub-valantine div div a:hover{
+    
+    color: rgb(144, 106, 178);
+}
+.sub-mac{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    width: auto;
+    background: url(https://www.apple.com/v/home/ay/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_large_2x.jpg) center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: black;
+    height: 76vh;
+}
+.sub-mac div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-mac div h1{
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-weight: bold;
+}
+.sub-mac div h3{
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.sub-mac div div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.sub-mac div div a:hover{
+    
+    color: rgb(144, 106, 178);
+}
+.sub-ipad{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    width: auto;
+    background: url(https://www.apple.com/v/home/ay/images/promos/ipad/promo_ipad__fioegapg12qi_medium_2x.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: black;
+    height: 76vh;
+}
+.sub-ipad div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-ipad div h1{
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    font-weight: bold;
+}
+.sub-ipad div h3{
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.sub-ipad div div a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.sub-ipad div div a:hover{
+    
+    color: rgb(144, 106, 178);
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+   background-color:#d2d2d7;
+    
+
+}
+.note{
+   
+    text-align: center;
+    border-left:100% ;
+    border-right: 100%;
+}
+.disc{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+@media screen and (max-width: 790px){
+    .options{
+        display: none;
+    }
+    .appleNav{
+        display: flex;
+        justify-content: space-between;
+        padding-left:20px ;
+        padding-right: 20px;
+    }
+    .sub-ipad{
+       padding-top: 130px;
+    }
+    .sub-mac{
+        padding-top: 130px;
+    }
+    .sub-speaker{
+        padding-top: 130px;
+    }
+    .sub-lap{
+        padding-top: 130px;
+    }
+    .sub-valantine{
+        padding-top: 130px;
+    }
+    .sub-watch{
+        padding-top: 130px;
+    }
+}
