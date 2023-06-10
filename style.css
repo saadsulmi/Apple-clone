@@ -49,6 +49,12 @@
 .search-section svg:hover{
     fill: white;
 }
+.btn1{
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 2vw;
+}
 .shopkart svg{
     
     margin-top: 8px;
@@ -392,6 +398,37 @@
     font-weight: 400;
     letter-spacing: -.01em;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.footer{
+    padding: 25px 250px;
+    background-color: rgb(245,245,247);
+    height: auto;
+    overflow: hidden;
+}
+
+.footer p{
+    font-size: 0.8em;
+}
+.footer hr{
+    border : solid rgb(175, 175, 175) 0.01mm;
+}
+.footer .option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer .option div{
+    display: flex;
+    flex-direction: column;
+}
+.footer .option div h5{
+    font-size: 0.8em;
+    overflow: hidden;
+}
+.footer .option div a{
+    color: rgb(52, 52, 52);
+    font-size: 0.8em;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 790px){
